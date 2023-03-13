@@ -1,0 +1,39 @@
+.selector {
+    &__title {
+    margin-top: 20px;
+    }
+    &__row {
+    display: flex;
+    margin-bottom: 12px;
+    }
+    &__column {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    }
+    }
+    .input {
+    background: white;
+    border: 1px solid #868686;
+    border-radius: 4px;
+    color: #2b2b2b;
+    padding: 4px;
+    &--primary{
+    float: inline-end;
+    background-color:rgb(49, 49, 255);
+    color: white;
+    padding: 4px 8px;
+    border:rgb(49, 49, 255) ;
+    }
+    }
+    .alert{
+    border: 1px solid;
+    border-radius: 4px;
+    color: rgb(45, 63, 182);
+    padding: 4px;
+    &--primary{
+    width: 100%;
+    background: rgb(92, 179, 240);
+    border-color: rgb(16, 155, 255);
+    }
+    }
